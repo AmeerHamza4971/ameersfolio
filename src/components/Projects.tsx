@@ -8,7 +8,7 @@ import { useInView } from 'react-intersection-observer';
 interface ProjectsProps {
   projectImages: string[];
 }
-// test code enable
+
 const Projects = ({ projectImages }: ProjectsProps) => {
   const [ref, inView] = useInView({
     triggerOnce: true,
